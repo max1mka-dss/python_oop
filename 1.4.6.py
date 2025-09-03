@@ -4,7 +4,7 @@ class MediaPlayer:
     def open(self,file):
         #self.file = file
         setattr(self,'filename',file)
-    def play(self,):
+    def play(self):
         print(f"Воспроизведение {self.filename}")
 
 media1 = MediaPlayer()
